@@ -1,0 +1,10 @@
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init
+    - cd kii
+    - git submodule sync
+    - git submodule update --init
+
+genral:
+  build_dir: .
