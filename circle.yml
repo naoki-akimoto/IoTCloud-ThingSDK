@@ -5,6 +5,10 @@ checkout:
     - cd kii; git submodule sync
     - cd kii; git submodule update --init
 
+dependencies:
+  override:
+    - yum -y install doxygen
+
 test:
   pre:
     - make
