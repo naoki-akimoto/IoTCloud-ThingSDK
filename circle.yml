@@ -6,5 +6,5 @@ checkout:
     - cd kii; git submodule update --init
 
 test:
-  override:
+  pre:
     - make
