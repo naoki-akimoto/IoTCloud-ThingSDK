@@ -1,6 +1,6 @@
 general:
   artifacts:
-    - "html"
+    - "target"
 
 checkout:
   post:
