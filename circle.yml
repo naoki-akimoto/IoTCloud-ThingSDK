@@ -7,7 +7,7 @@ checkout:
 
 dependencies:
   override:
-    - apt-get install doxygen
+    - sudo apt-get install doxygen
 
 test:
   pre:
