@@ -1,6 +1,6 @@
 general:
   artifacts:
-    - "target"
+    - "out_doc"
 
 checkout:
   post:
