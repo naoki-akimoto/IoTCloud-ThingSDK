@@ -62,7 +62,7 @@ static kii_json_parse_result_t prv_kii_iot_json_read_object(
                     "fail to parse json: result=%d, message=%s\n",
                     retval, kii_json.error_string_buff));
             break;
-    }
+    
     return retval;
 }
 
