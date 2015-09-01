@@ -6,6 +6,8 @@ checkout:
     - cd kii; git submodule update --init
 
 dependencies:
+  pre:
+    - gem install package_cloud
   override:
     - yum -y install doxygen
 
