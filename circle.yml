@@ -1,3 +1,7 @@
+general:
+  artifacts:
+    - "html"
+
 checkout:
   post:
     - git submodule sync
